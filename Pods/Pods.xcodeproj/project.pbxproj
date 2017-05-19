@@ -1,0 +1,1385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CA8CBE6C9708D70EB792B61372FF86C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92CA73A2A2B5A6594D1ACA3BD68DF2D /* Media.xcassets */; };
+		0FDDDEBF4DB465F3EE253A58B15419DF /* SnapInAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ABD3825D4A779B786B039C1FAF279B /* SnapInAttributesAnimator.swift */; };
+		1125A5CE7857DA14A4C8E6D742C4596F /* RotateInOutAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E933D0F1C3911453F206F9A7F97E8 /* RotateInOutAttributesAnimator.swift */; };
+		13FD4829C1935D33FF0B0E858B84482D /* FSVideoCameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D12EBC91210F53FDBDB9AF7BD018B6 /* FSVideoCameraView.xib */; };
+		16CBA8F2661201854CDC6804A385DDF9 /* SwiftyCamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7932524F44076F3A11DC11F46F123F /* SwiftyCamViewController.swift */; };
+		1802C70744FC5ACF32217ACBF5260972 /* ParallaxAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583F2EBB12C54AF52E85BD0295D84484 /* ParallaxAttributesAnimator.swift */; };
+		1C82A350630273F914125DBDEA52F683 /* FSAlbumView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE5EB2E14A110F7C11296E88349EE8 /* FSAlbumView.xib */; };
+		1DB658B6052ECB623162518123B77756 /* CrossFadeAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E7B0496B0F5077EFB7D948E7BF6F5A /* CrossFadeAttributesAnimator.swift */; };
+		1FDE3F51EBA16211CA4CA86ED4411B8C /* JSSAlertViewResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAC3356AB2BB5D750399933D9294E3 /* JSSAlertViewResponder.swift */; };
+		20CA41A9D887B30508789E243A9F0307 /* Pods-InstaStory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66C17390673FC7EBAA9ACB904F9DD660 /* Pods-InstaStory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20D66F5A4C3E7D71447E3B11DDE080E9 /* SwiftyCam-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EA3C0AF09F499D51D3DAC691C3CD87 /* SwiftyCam-dummy.m */; };
+		25C0613E2A219CCBC754E32839090857 /* LinearCardAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6B72748650675D8A7D1103B0B6B246 /* LinearCardAttributesAnimator.swift */; };
+		2E7AA5C7EFF40BC34343AE82B096866E /* JSSAlertView+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D5D1668EF191C2E8E93E32FABD26CD /* JSSAlertView+UIColor.swift */; };
+		2E8BB2C70FF725DBF79AA6A86741D031 /* JSSAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF9E1DFC25E6F717265216B9EB237E2 /* JSSAlertView-dummy.m */; };
+		31E624889F448B54A96EE070D6825DC8 /* JSSAlertView+Predefined.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD1B6010C06BD4B16144C11A11FA130 /* JSSAlertView+Predefined.swift */; };
+		337EBB7E279C5D1697601D3C6A696A46 /* FusumaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9BD2BAC3A787C0DA773B86F1EDE3AA /* FusumaViewController.swift */; };
+		3448F958C584DB2F0007F60C1D7C8F0E /* AnimatedCollectionViewLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57AD474AF46B34B244B2E906B1608CC0 /* AnimatedCollectionViewLayout-dummy.m */; };
+		37D4EF5938F8495CE32638F8BEB53550 /* FSAlbumViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC162E0F98920645EC033EFAEC96FF86 /* FSAlbumViewCell.swift */; };
+		3E553BD87F8B04274EEFCB2224BC9FE5 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD947FFE76DD1046183EF514E910678B /* PreviewView.swift */; };
+		469B2E58DBCB508524BB966FA06D3760 /* JSSAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BBC9CF5FE297C60501C6C38494EBBB8 /* JSSAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47BD4340A496D6790AF8CEF0B797134F /* Sharaku-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFA3664E668CDBFB4202C64EF458FE96 /* Sharaku-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		484B8C39828B296D71146C51A0904FC7 /* Fusuma-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 710A5C6DD85497F2E061516DFF2AF185 /* Fusuma-dummy.m */; };
+		520A9C5F907E09600B65840BD97D7CC7 /* UIView+Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA95862439BB5E810C837C2E103333 /* UIView+Anchor.swift */; };
+		5876F184D9754E4DFBAD67EEF32FCF9C /* FSVideoCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08E0B17F29907D8433BBC9951E2B025 /* FSVideoCameraView.swift */; };
+		61C552D3D8E8535D17FE67E7A1241E2F /* AnimatedCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBAB4133A675ED308F06C8755BCC1EE /* AnimatedCollectionViewLayout.swift */; };
+		675FC8085F139617288ECDF622AFBDB7 /* LayoutAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86EC47C71D2F3FB268323E781D0800 /* LayoutAttributesAnimator.swift */; };
+		68EDE14B1989D2CFC9EA37BDC6F4E911 /* Pods-InstaStory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFB55FFE42AE94DA5AA5E2249267AB1 /* Pods-InstaStory-dummy.m */; };
+		690D1E7DD25286F0401730497252DAFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6C3E0ED549F157B68511CEA0FCFFBE2C /* CubeAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8496570249685DDA9B44D6D7F1C404 /* CubeAttributesAnimator.swift */; };
+		6C57AE9E24E2317C7D24298CA35F2216 /* Sharaku-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 190265C7CE03390DB39C20B4FD86F17E /* Sharaku-dummy.m */; };
+		76C218BD1C4FED73A5D8DE0B44133A10 /* FSImageCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD23D7AC3B841569BE135B31BDEAC5 /* FSImageCropView.swift */; };
+		7F40B8BBCC675E39488BCC8C4B49268A /* ZoomInOutAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6945983C6DBF1D2892BE100527C9685E /* ZoomInOutAttributesAnimator.swift */; };
+		89FD729105DB20B9618F35666583308B /* SwiftyCam-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A7CDF2EFB0AC77AEFCD5AA802115FFF /* SwiftyCam-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D81799B3B4613F0D1102456C361925D /* SHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E59E00D04C69099700D0B08D59701F8 /* SHViewController.xib */; };
+		8F58F1ABFE3FBF17544651B4538925BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		97D850D3836A89967D5A350E84996568 /* FSConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F265E2022FA5F7A8F0A1AF4027134E /* FSConstants.swift */; };
+		98C0F05CF40E7E1C111B0599ABE5BCAD /* FSAlbumViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ADCB63097D2BF1AE881348CB22639B3 /* FSAlbumViewCell.xib */; };
+		9B873508C82CD5F231473F335E456221 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A4312948C1CDF0C35BC92E6118602537 /* AnimatedCollectionViewLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A93528F240E76F4602D5B0A8CE576B60 /* AnimatedCollectionViewLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A441771393AE60B51CE9C144225BCB2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A54630491BB0108B124C967C2A100F08 /* PageAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A3303380D81BE969822CA7EFE7845 /* PageAttributesAnimator.swift */; };
+		A9B3D1536A2CF43411E63C1887FE042A /* SHCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 017BB16FD044AED1AF21EE283225C466 /* SHCollectionViewCell.xib */; };
+		AA87C8542F368CC301BCF815CACF5850 /* Fusuma-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F88924EA9672A959108EEB83A43B1143 /* Fusuma-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B713E6D96B28A5ED3ED165A58E85DB3C /* JSSAlertView+Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01654ED34B712DBD7721D05BD15259D /* JSSAlertView+Timer.swift */; };
+		BE257F9E8480317B11180FA5D5FD86E4 /* SHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41489F35998516D0176E72FFAA581689 /* SHViewController.swift */; };
+		C42DF1778E8B569893D69560F75A1B9D /* SHViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 7E59E00D04C69099700D0B08D59701F8 /* SHViewController.xib */; };
+		C5C88F4AB62FA845795ACAE292A05E5B /* FusumaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 533B7E397335FC19B77AB92774194DEF /* FusumaViewController.xib */; };
+		D48280C1455DE0EE3D7AB4CE0B4CF5A6 /* JSSAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D070141F5D48993381A72949FC3CC44 /* JSSAlertView.swift */; };
+		D6B40CFEFF9687D1E128DE4B98A1D776 /* SwiftyCamViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF17464BDC3E880327D509A7D7B5CB9 /* SwiftyCamViewControllerDelegate.swift */; };
+		DC8B2CD64AE5925518C1FD441C723E77 /* FSAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53A4554D59B9D0F14F65EB1B29FBBB9 /* FSAlbumView.swift */; };
+		DEE986406B21C665DA0409BCD65D6967 /* SHCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C705B52DB61C392736684EAB4F614D40 /* SHCollectionViewCell.swift */; };
+		E76B14332EA4BF464EBA72C31769A619 /* FSCameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F490DC287C669015EBB9212859367AA /* FSCameraView.xib */; };
+		E8CD91CC081DE8166DB3964B70DD91F3 /* FSCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7E64E2E3ABC0491585738C96B6414F /* FSCameraView.swift */; };
+		F3003453FC8522F66D85804680B1A6DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F78F27C6B612BBDFCEBE6DF580D6855B /* SwiftyCamButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C0498766EB19F91ACE287FAA5515E /* SwiftyCamButton.swift */; };
+		F8F2B8EF3A92B1E031FA17F874B40D98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2415BD971B4EE23CFF64D33EDF87052 /* Assets.xcassets */; };
+		F9AEF93F219404A4FFF8D468287F3623 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		FA4305FEDB93828B2D204C560768A70B /* SHCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 017BB16FD044AED1AF21EE283225C466 /* SHCollectionViewCell.xib */; };
+		FD95C2EF9504DEA869960063A5288476 /* JSSAlertView+Depricated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD4EE2939B1E4FEFFE6BD2D4A2B106 /* JSSAlertView+Depricated.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		691362300CB4991B14A905C41AC09960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 438147836F715EFF52F12D284F252227;
+			remoteInfo = SwiftyCam;
+		};
+		9F4370788DC3FA900F47BCBC09358FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 396BE9281F4F2DE0CB97E267BD9FAF2A;
+			remoteInfo = Sharaku;
+		};
+		CBF8A3883D716CE53D75AB7506BAA98C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E0D8640A124012AB6F0A9F775A38285;
+			remoteInfo = Fusuma;
+		};
+		D2E43908BF77EF2077259C23F8CC1D03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01B5F9358EAD17782FA546BF99060034;
+			remoteInfo = AnimatedCollectionViewLayout;
+		};
+		F5ACB31B7B3B0FFDE14920A7AF1B0A6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D368184BEED712B6A15E4767FE420BE5;
+			remoteInfo = JSSAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		017BB16FD044AED1AF21EE283225C466 /* SHCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SHCollectionViewCell.xib; path = Sharaku/Classes/SHCollectionViewCell.xib; sourceTree = "<group>"; };
+		057051967F0F7D64FED22D1077ADAF04 /* Sharaku-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sharaku-prefix.pch"; sourceTree = "<group>"; };
+		06F265E2022FA5F7A8F0A1AF4027134E /* FSConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSConstants.swift; path = Sources/FSConstants.swift; sourceTree = "<group>"; };
+		09E7B0496B0F5077EFB7D948E7BF6F5A /* CrossFadeAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrossFadeAttributesAnimator.swift; path = Source/CrossFadeAttributesAnimator.swift; sourceTree = "<group>"; };
+		0D8496570249685DDA9B44D6D7F1C404 /* CubeAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CubeAttributesAnimator.swift; path = Source/CubeAttributesAnimator.swift; sourceTree = "<group>"; };
+		17ABD3825D4A779B786B039C1FAF279B /* SnapInAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapInAttributesAnimator.swift; path = Source/SnapInAttributesAnimator.swift; sourceTree = "<group>"; };
+		182EE2E51E2A064E728E6F0DC97932F6 /* JSSAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSSAlertView.framework; path = JSSAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		190265C7CE03390DB39C20B4FD86F17E /* Sharaku-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Sharaku-dummy.m"; sourceTree = "<group>"; };
+		1C936146D2973501FA675944BD90135A /* JSSAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSSAlertView.xcconfig; sourceTree = "<group>"; };
+		205C69A22C00FBC75425C0BD65D61E25 /* Pods-InstaStory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstaStory.release.xcconfig"; sourceTree = "<group>"; };
+		208EA5451C9C948578186EC06803A20C /* AnimatedCollectionViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnimatedCollectionViewLayout.framework; path = AnimatedCollectionViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B8D804FA334C0DBB48DF2069C1DCE6 /* Fusuma-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fusuma-prefix.pch"; sourceTree = "<group>"; };
+		258ED414F57446FC6C880BB35C5C84BE /* AnimatedCollectionViewLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedCollectionViewLayout-prefix.pch"; sourceTree = "<group>"; };
+		2D070141F5D48993381A72949FC3CC44 /* JSSAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSSAlertView.swift; path = JSSAlertView/Classes/JSSAlertView.swift; sourceTree = "<group>"; };
+		2D1CD3161DB3DBCB70FE40499DBC673D /* Fusuma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Fusuma.framework; path = Fusuma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F80A2025EAF11F12D88AC41CA5C2BA2 /* JSSAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JSSAlertView.modulemap; sourceTree = "<group>"; };
+		2F9699801747E3B972BE5E70CDA7EBD1 /* SwiftyCam.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyCam.modulemap; sourceTree = "<group>"; };
+		305D90F0109D530B88C02BD94F2D249A /* Pods-InstaStory-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InstaStory-resources.sh"; sourceTree = "<group>"; };
+		364963D74609ACA0CE36E38A4031187C /* SwiftyCam-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyCam-prefix.pch"; sourceTree = "<group>"; };
+		3B7E64E2E3ABC0491585738C96B6414F /* FSCameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSCameraView.swift; path = Sources/FSCameraView.swift; sourceTree = "<group>"; };
+		3F982FCDD73BECE16EACAD682238CA40 /* Pods-InstaStory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-InstaStory.modulemap"; sourceTree = "<group>"; };
+		41489F35998516D0176E72FFAA581689 /* SHViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHViewController.swift; path = Sharaku/Classes/SHViewController.swift; sourceTree = "<group>"; };
+		4BBC9CF5FE297C60501C6C38494EBBB8 /* JSSAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSSAlertView-umbrella.h"; sourceTree = "<group>"; };
+		4DCE5EB2E14A110F7C11296E88349EE8 /* FSAlbumView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FSAlbumView.xib; path = Sources/FSAlbumView.xib; sourceTree = "<group>"; };
+		533B7E397335FC19B77AB92774194DEF /* FusumaViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FusumaViewController.xib; path = Sources/FusumaViewController.xib; sourceTree = "<group>"; };
+		53AF94DEE77133FDC25E8F6058EBA0F1 /* Pods_InstaStory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_InstaStory.framework; path = "Pods-InstaStory.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56C2463C75E763980A23EA4F2D738AE5 /* AnimatedCollectionViewLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimatedCollectionViewLayout.xcconfig; sourceTree = "<group>"; };
+		57AD474AF46B34B244B2E906B1608CC0 /* AnimatedCollectionViewLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimatedCollectionViewLayout-dummy.m"; sourceTree = "<group>"; };
+		583F2EBB12C54AF52E85BD0295D84484 /* ParallaxAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParallaxAttributesAnimator.swift; path = Source/ParallaxAttributesAnimator.swift; sourceTree = "<group>"; };
+		59D5D1668EF191C2E8E93E32FABD26CD /* JSSAlertView+UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "JSSAlertView+UIColor.swift"; path = "JSSAlertView/Classes/JSSAlertView+UIColor.swift"; sourceTree = "<group>"; };
+		5ADCB63097D2BF1AE881348CB22639B3 /* FSAlbumViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FSAlbumViewCell.xib; path = Sources/FSAlbumViewCell.xib; sourceTree = "<group>"; };
+		5E7C7DEC23A33A3201C5D4AC156496FC /* Sharaku.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Sharaku.modulemap; sourceTree = "<group>"; };
+		5F490DC287C669015EBB9212859367AA /* FSCameraView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FSCameraView.xib; path = Sources/FSCameraView.xib; sourceTree = "<group>"; };
+		5FE96CDD57C55C2A59E8AA2A9B49742A /* SwiftyCam.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyCam.xcconfig; sourceTree = "<group>"; };
+		64442F7C303E10A10E8A19404F050804 /* Sharaku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Sharaku.framework; path = Sharaku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C17390673FC7EBAA9ACB904F9DD660 /* Pods-InstaStory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InstaStory-umbrella.h"; sourceTree = "<group>"; };
+		6945983C6DBF1D2892BE100527C9685E /* ZoomInOutAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZoomInOutAttributesAnimator.swift; path = Source/ZoomInOutAttributesAnimator.swift; sourceTree = "<group>"; };
+		6A7CDF2EFB0AC77AEFCD5AA802115FFF /* SwiftyCam-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyCam-umbrella.h"; sourceTree = "<group>"; };
+		6B9BD2BAC3A787C0DA773B86F1EDE3AA /* FusumaViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FusumaViewController.swift; path = Sources/FusumaViewController.swift; sourceTree = "<group>"; };
+		6F7932524F44076F3A11DC11F46F123F /* SwiftyCamViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCamViewController.swift; path = Source/SwiftyCamViewController.swift; sourceTree = "<group>"; };
+		710A5C6DD85497F2E061516DFF2AF185 /* Fusuma-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Fusuma-dummy.m"; sourceTree = "<group>"; };
+		79C0B858D238AB8F927C117A4034E498 /* SwiftyCam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyCam.framework; path = SwiftyCam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0E6C9C98964E6EFB20D151CF8DDD3E /* Sharaku.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sharaku.xcconfig; sourceTree = "<group>"; };
+		7C7DE1E61096C99F0D319B8CB99C6F31 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E59E00D04C69099700D0B08D59701F8 /* SHViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SHViewController.xib; path = Sharaku/Classes/SHViewController.xib; sourceTree = "<group>"; };
+		869CF1575E18D0970C9438E16F4AC57B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CAAAACEDACE252A855F4E2DC2507D05 /* JSSAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSSAlertView-prefix.pch"; sourceTree = "<group>"; };
+		8CB26BC2FB5FA7A200931BB1CBFB5B2C /* Pods-InstaStory-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InstaStory-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D0C0498766EB19F91ACE287FAA5515E /* SwiftyCamButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCamButton.swift; path = Source/SwiftyCamButton.swift; sourceTree = "<group>"; };
+		8DBA95862439BB5E810C837C2E103333 /* UIView+Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Anchor.swift"; path = "Source/UIView+Anchor.swift"; sourceTree = "<group>"; };
+		8EFD23D7AC3B841569BE135B31BDEAC5 /* FSImageCropView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSImageCropView.swift; path = Sources/FSImageCropView.swift; sourceTree = "<group>"; };
+		8FF9E1DFC25E6F717265216B9EB237E2 /* JSSAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSSAlertView-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D7DCBAE85A690AA27EBE86B9D6B21E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DBAB4133A675ED308F06C8755BCC1EE /* AnimatedCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedCollectionViewLayout.swift; path = Source/AnimatedCollectionViewLayout.swift; sourceTree = "<group>"; };
+		9E5A3303380D81BE969822CA7EFE7845 /* PageAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageAttributesAnimator.swift; path = Source/PageAttributesAnimator.swift; sourceTree = "<group>"; };
+		9F51EC500C51B8A0EE377C3FBE1582C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FFB55FFE42AE94DA5AA5E2249267AB1 /* Pods-InstaStory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InstaStory-dummy.m"; sourceTree = "<group>"; };
+		A422A676D773EDAAFBC1C27282F8426A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8EA3C0AF09F499D51D3DAC691C3CD87 /* SwiftyCam-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyCam-dummy.m"; sourceTree = "<group>"; };
+		A93528F240E76F4602D5B0A8CE576B60 /* AnimatedCollectionViewLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedCollectionViewLayout-umbrella.h"; sourceTree = "<group>"; };
+		AD196434B48824482D4C17A8F5AFA4B9 /* Pods-InstaStory-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InstaStory-frameworks.sh"; sourceTree = "<group>"; };
+		ADD1B6010C06BD4B16144C11A11FA130 /* JSSAlertView+Predefined.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "JSSAlertView+Predefined.swift"; path = "JSSAlertView/Classes/JSSAlertView+Predefined.swift"; sourceTree = "<group>"; };
+		AF9704FC092F3290438B4C28AA642FD3 /* Fusuma.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fusuma.xcconfig; sourceTree = "<group>"; };
+		AFA3664E668CDBFB4202C64EF458FE96 /* Sharaku-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sharaku-umbrella.h"; sourceTree = "<group>"; };
+		B2415BD971B4EE23CFF64D33EDF87052 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Sources/Assets.xcassets; sourceTree = "<group>"; };
+		B7BD4EE2939B1E4FEFFE6BD2D4A2B106 /* JSSAlertView+Depricated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "JSSAlertView+Depricated.swift"; path = "JSSAlertView/Classes/JSSAlertView+Depricated.swift"; sourceTree = "<group>"; };
+		B92CA73A2A2B5A6594D1ACA3BD68DF2D /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Sharaku/Assets/Media.xcassets; sourceTree = "<group>"; };
+		BD947FFE76DD1046183EF514E910678B /* PreviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreviewView.swift; path = Source/PreviewView.swift; sourceTree = "<group>"; };
+		C705B52DB61C392736684EAB4F614D40 /* SHCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHCollectionViewCell.swift; path = Sharaku/Classes/SHCollectionViewCell.swift; sourceTree = "<group>"; };
+		CA6B72748650675D8A7D1103B0B6B246 /* LinearCardAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinearCardAttributesAnimator.swift; path = Source/LinearCardAttributesAnimator.swift; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D00DB8C2D516A6E48780F62CAA643F5F /* Pods-InstaStory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstaStory.debug.xcconfig"; sourceTree = "<group>"; };
+		D08E0B17F29907D8433BBC9951E2B025 /* FSVideoCameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSVideoCameraView.swift; path = Sources/FSVideoCameraView.swift; sourceTree = "<group>"; };
+		D0D12EBC91210F53FDBDB9AF7BD018B6 /* FSVideoCameraView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FSVideoCameraView.xib; path = Sources/FSVideoCameraView.xib; sourceTree = "<group>"; };
+		D53A4554D59B9D0F14F65EB1B29FBBB9 /* FSAlbumView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSAlbumView.swift; path = Sources/FSAlbumView.swift; sourceTree = "<group>"; };
+		D8D13A101D42FD87B1C045D7232ED3E3 /* Fusuma.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Fusuma.modulemap; sourceTree = "<group>"; };
+		DA86EC47C71D2F3FB268323E781D0800 /* LayoutAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutAttributesAnimator.swift; path = Source/LayoutAttributesAnimator.swift; sourceTree = "<group>"; };
+		DAFAC3356AB2BB5D750399933D9294E3 /* JSSAlertViewResponder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSSAlertViewResponder.swift; path = JSSAlertView/Classes/JSSAlertViewResponder.swift; sourceTree = "<group>"; };
+		E2138FC375BEE315BE1D0AC8A356AFD4 /* AnimatedCollectionViewLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AnimatedCollectionViewLayout.modulemap; sourceTree = "<group>"; };
+		EA8A824212A6CBF28A50C29C9C8D5649 /* Pods-InstaStory-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InstaStory-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC162E0F98920645EC033EFAEC96FF86 /* FSAlbumViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSAlbumViewCell.swift; path = Sources/FSAlbumViewCell.swift; sourceTree = "<group>"; };
+		ED9E933D0F1C3911453F206F9A7F97E8 /* RotateInOutAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotateInOutAttributesAnimator.swift; path = Source/RotateInOutAttributesAnimator.swift; sourceTree = "<group>"; };
+		F01654ED34B712DBD7721D05BD15259D /* JSSAlertView+Timer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "JSSAlertView+Timer.swift"; path = "JSSAlertView/Classes/JSSAlertView+Timer.swift"; sourceTree = "<group>"; };
+		F6A60B6637F7DE2BBD14FBE08CEAE1EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F88924EA9672A959108EEB83A43B1143 /* Fusuma-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fusuma-umbrella.h"; sourceTree = "<group>"; };
+		FEF17464BDC3E880327D509A7D7B5CB9 /* SwiftyCamViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCamViewControllerDelegate.swift; path = Source/SwiftyCamViewControllerDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		019A8E0A4992E21845674668903B54F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A441771393AE60B51CE9C144225BCB2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07B5BD778D3D603E8DE6B00D0A32F4A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3003453FC8522F66D85804680B1A6DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332AD6CBCD0253B6CE91DF555781F789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B873508C82CD5F231473F335E456221 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B286E7A43102940D94EC219C3FBC877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F58F1ABFE3FBF17544651B4538925BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE224930524D3B4D02BAF10D938AE539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690D1E7DD25286F0401730497252DAFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77F5128CE80885946B33A64282A93E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9AEF93F219404A4FFF8D468287F3623 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		190ADC9CE5179E33F60360A37A68B7B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C7DE1E61096C99F0D319B8CB99C6F31 /* Info.plist */,
+				5E7C7DEC23A33A3201C5D4AC156496FC /* Sharaku.modulemap */,
+				7A0E6C9C98964E6EFB20D151CF8DDD3E /* Sharaku.xcconfig */,
+				190265C7CE03390DB39C20B4FD86F17E /* Sharaku-dummy.m */,
+				057051967F0F7D64FED22D1077ADAF04 /* Sharaku-prefix.pch */,
+				AFA3664E668CDBFB4202C64EF458FE96 /* Sharaku-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Sharaku";
+			sourceTree = "<group>";
+		};
+		3E5AD83B4F6AF6E2EC9E8ECC3CB576DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D7DCBAE85A690AA27EBE86B9D6B21E9 /* Info.plist */,
+				2F9699801747E3B972BE5E70CDA7EBD1 /* SwiftyCam.modulemap */,
+				5FE96CDD57C55C2A59E8AA2A9B49742A /* SwiftyCam.xcconfig */,
+				A8EA3C0AF09F499D51D3DAC691C3CD87 /* SwiftyCam-dummy.m */,
+				364963D74609ACA0CE36E38A4031187C /* SwiftyCam-prefix.pch */,
+				6A7CDF2EFB0AC77AEFCD5AA802115FFF /* SwiftyCam-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyCam";
+			sourceTree = "<group>";
+		};
+		40843E6049C597DDDA4722C8851453F7 /* JSSAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				2D070141F5D48993381A72949FC3CC44 /* JSSAlertView.swift */,
+				B7BD4EE2939B1E4FEFFE6BD2D4A2B106 /* JSSAlertView+Depricated.swift */,
+				ADD1B6010C06BD4B16144C11A11FA130 /* JSSAlertView+Predefined.swift */,
+				F01654ED34B712DBD7721D05BD15259D /* JSSAlertView+Timer.swift */,
+				59D5D1668EF191C2E8E93E32FABD26CD /* JSSAlertView+UIColor.swift */,
+				DAFAC3356AB2BB5D750399933D9294E3 /* JSSAlertViewResponder.swift */,
+				D9D3A595C33A92A9AF163E4509DE2F64 /* Support Files */,
+			);
+			name = JSSAlertView;
+			path = JSSAlertView;
+			sourceTree = "<group>";
+		};
+		44484634B2B529EB1FCDF4F91D648EA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ED602DBC14DB57B5F330CDE36415912 /* AnimatedCollectionViewLayout */,
+				E5DAB08ED8C0F1545CD3C4422B6D5FBB /* Fusuma */,
+				40843E6049C597DDDA4722C8851453F7 /* JSSAlertView */,
+				CE04C5472143C0DF3E744126FA5AAD47 /* Sharaku */,
+				A9E200A0D46269DA5CBB4E43228B765F /* SwiftyCam */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4A051D7391D0816D530BD6B7723E7743 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B92CA73A2A2B5A6594D1ACA3BD68DF2D /* Media.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				44484634B2B529EB1FCDF4F91D648EA4 /* Pods */,
+				EDF9956977C97CBBDC5B9E5E7C0B802B /* Products */,
+				E36E2270C325E59B46BA0CDF01D79D74 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7ED602DBC14DB57B5F330CDE36415912 /* AnimatedCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				9DBAB4133A675ED308F06C8755BCC1EE /* AnimatedCollectionViewLayout.swift */,
+				09E7B0496B0F5077EFB7D948E7BF6F5A /* CrossFadeAttributesAnimator.swift */,
+				0D8496570249685DDA9B44D6D7F1C404 /* CubeAttributesAnimator.swift */,
+				DA86EC47C71D2F3FB268323E781D0800 /* LayoutAttributesAnimator.swift */,
+				CA6B72748650675D8A7D1103B0B6B246 /* LinearCardAttributesAnimator.swift */,
+				9E5A3303380D81BE969822CA7EFE7845 /* PageAttributesAnimator.swift */,
+				583F2EBB12C54AF52E85BD0295D84484 /* ParallaxAttributesAnimator.swift */,
+				ED9E933D0F1C3911453F206F9A7F97E8 /* RotateInOutAttributesAnimator.swift */,
+				17ABD3825D4A779B786B039C1FAF279B /* SnapInAttributesAnimator.swift */,
+				8DBA95862439BB5E810C837C2E103333 /* UIView+Anchor.swift */,
+				6945983C6DBF1D2892BE100527C9685E /* ZoomInOutAttributesAnimator.swift */,
+				CA956821A29DD8A8C1CC11BD3646C954 /* Support Files */,
+			);
+			name = AnimatedCollectionViewLayout;
+			path = AnimatedCollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		8B47C14248F084DE8F443419BBD9B287 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8D13A101D42FD87B1C045D7232ED3E3 /* Fusuma.modulemap */,
+				AF9704FC092F3290438B4C28AA642FD3 /* Fusuma.xcconfig */,
+				710A5C6DD85497F2E061516DFF2AF185 /* Fusuma-dummy.m */,
+				20B8D804FA334C0DBB48DF2069C1DCE6 /* Fusuma-prefix.pch */,
+				F88924EA9672A959108EEB83A43B1143 /* Fusuma-umbrella.h */,
+				F6A60B6637F7DE2BBD14FBE08CEAE1EA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Fusuma";
+			sourceTree = "<group>";
+		};
+		A9E200A0D46269DA5CBB4E43228B765F /* SwiftyCam */ = {
+			isa = PBXGroup;
+			children = (
+				BD947FFE76DD1046183EF514E910678B /* PreviewView.swift */,
+				8D0C0498766EB19F91ACE287FAA5515E /* SwiftyCamButton.swift */,
+				6F7932524F44076F3A11DC11F46F123F /* SwiftyCamViewController.swift */,
+				FEF17464BDC3E880327D509A7D7B5CB9 /* SwiftyCamViewControllerDelegate.swift */,
+				3E5AD83B4F6AF6E2EC9E8ECC3CB576DE /* Support Files */,
+			);
+			name = SwiftyCam;
+			path = SwiftyCam;
+			sourceTree = "<group>";
+		};
+		AE8024A5C224723FE312EA2F29C88C74 /* Pods-InstaStory */ = {
+			isa = PBXGroup;
+			children = (
+				9F51EC500C51B8A0EE377C3FBE1582C2 /* Info.plist */,
+				3F982FCDD73BECE16EACAD682238CA40 /* Pods-InstaStory.modulemap */,
+				EA8A824212A6CBF28A50C29C9C8D5649 /* Pods-InstaStory-acknowledgements.markdown */,
+				8CB26BC2FB5FA7A200931BB1CBFB5B2C /* Pods-InstaStory-acknowledgements.plist */,
+				9FFB55FFE42AE94DA5AA5E2249267AB1 /* Pods-InstaStory-dummy.m */,
+				AD196434B48824482D4C17A8F5AFA4B9 /* Pods-InstaStory-frameworks.sh */,
+				305D90F0109D530B88C02BD94F2D249A /* Pods-InstaStory-resources.sh */,
+				66C17390673FC7EBAA9ACB904F9DD660 /* Pods-InstaStory-umbrella.h */,
+				D00DB8C2D516A6E48780F62CAA643F5F /* Pods-InstaStory.debug.xcconfig */,
+				205C69A22C00FBC75425C0BD65D61E25 /* Pods-InstaStory.release.xcconfig */,
+			);
+			name = "Pods-InstaStory";
+			path = "Target Support Files/Pods-InstaStory";
+			sourceTree = "<group>";
+		};
+		B17C757B22FD3F000E415A0DFC6DF120 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2415BD971B4EE23CFF64D33EDF87052 /* Assets.xcassets */,
+				4DCE5EB2E14A110F7C11296E88349EE8 /* FSAlbumView.xib */,
+				5ADCB63097D2BF1AE881348CB22639B3 /* FSAlbumViewCell.xib */,
+				5F490DC287C669015EBB9212859367AA /* FSCameraView.xib */,
+				D0D12EBC91210F53FDBDB9AF7BD018B6 /* FSVideoCameraView.xib */,
+				533B7E397335FC19B77AB92774194DEF /* FusumaViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA956821A29DD8A8C1CC11BD3646C954 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2138FC375BEE315BE1D0AC8A356AFD4 /* AnimatedCollectionViewLayout.modulemap */,
+				56C2463C75E763980A23EA4F2D738AE5 /* AnimatedCollectionViewLayout.xcconfig */,
+				57AD474AF46B34B244B2E906B1608CC0 /* AnimatedCollectionViewLayout-dummy.m */,
+				258ED414F57446FC6C880BB35C5C84BE /* AnimatedCollectionViewLayout-prefix.pch */,
+				A93528F240E76F4602D5B0A8CE576B60 /* AnimatedCollectionViewLayout-umbrella.h */,
+				A422A676D773EDAAFBC1C27282F8426A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AnimatedCollectionViewLayout";
+			sourceTree = "<group>";
+		};
+		CE04C5472143C0DF3E744126FA5AAD47 /* Sharaku */ = {
+			isa = PBXGroup;
+			children = (
+				C705B52DB61C392736684EAB4F614D40 /* SHCollectionViewCell.swift */,
+				017BB16FD044AED1AF21EE283225C466 /* SHCollectionViewCell.xib */,
+				41489F35998516D0176E72FFAA581689 /* SHViewController.swift */,
+				7E59E00D04C69099700D0B08D59701F8 /* SHViewController.xib */,
+				4A051D7391D0816D530BD6B7723E7743 /* Resources */,
+				190ADC9CE5179E33F60360A37A68B7B9 /* Support Files */,
+			);
+			name = Sharaku;
+			path = Sharaku;
+			sourceTree = "<group>";
+		};
+		D9D3A595C33A92A9AF163E4509DE2F64 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				869CF1575E18D0970C9438E16F4AC57B /* Info.plist */,
+				2F80A2025EAF11F12D88AC41CA5C2BA2 /* JSSAlertView.modulemap */,
+				1C936146D2973501FA675944BD90135A /* JSSAlertView.xcconfig */,
+				8FF9E1DFC25E6F717265216B9EB237E2 /* JSSAlertView-dummy.m */,
+				8CAAAACEDACE252A855F4E2DC2507D05 /* JSSAlertView-prefix.pch */,
+				4BBC9CF5FE297C60501C6C38494EBBB8 /* JSSAlertView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JSSAlertView";
+			sourceTree = "<group>";
+		};
+		E36E2270C325E59B46BA0CDF01D79D74 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE8024A5C224723FE312EA2F29C88C74 /* Pods-InstaStory */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E5DAB08ED8C0F1545CD3C4422B6D5FBB /* Fusuma */ = {
+			isa = PBXGroup;
+			children = (
+				D53A4554D59B9D0F14F65EB1B29FBBB9 /* FSAlbumView.swift */,
+				EC162E0F98920645EC033EFAEC96FF86 /* FSAlbumViewCell.swift */,
+				3B7E64E2E3ABC0491585738C96B6414F /* FSCameraView.swift */,
+				06F265E2022FA5F7A8F0A1AF4027134E /* FSConstants.swift */,
+				8EFD23D7AC3B841569BE135B31BDEAC5 /* FSImageCropView.swift */,
+				D08E0B17F29907D8433BBC9951E2B025 /* FSVideoCameraView.swift */,
+				6B9BD2BAC3A787C0DA773B86F1EDE3AA /* FusumaViewController.swift */,
+				B17C757B22FD3F000E415A0DFC6DF120 /* Resources */,
+				8B47C14248F084DE8F443419BBD9B287 /* Support Files */,
+			);
+			name = Fusuma;
+			path = Fusuma;
+			sourceTree = "<group>";
+		};
+		EDF9956977C97CBBDC5B9E5E7C0B802B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				208EA5451C9C948578186EC06803A20C /* AnimatedCollectionViewLayout.framework */,
+				2D1CD3161DB3DBCB70FE40499DBC673D /* Fusuma.framework */,
+				182EE2E51E2A064E728E6F0DC97932F6 /* JSSAlertView.framework */,
+				53AF94DEE77133FDC25E8F6058EBA0F1 /* Pods_InstaStory.framework */,
+				64442F7C303E10A10E8A19404F050804 /* Sharaku.framework */,
+				79C0B858D238AB8F927C117A4034E498 /* SwiftyCam.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5A5112C0E58915E54276ABB35901E0B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89FD729105DB20B9618F35666583308B /* SwiftyCam-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667A4B7ACD93A488EF51E5F5DE369EDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CA41A9D887B30508789E243A9F0307 /* Pods-InstaStory-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7158FEC466025B95E36CEACB736FF70B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA87C8542F368CC301BCF815CACF5850 /* Fusuma-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB3B05105FBB6A66DDF242315C177D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47BD4340A496D6790AF8CEF0B797134F /* Sharaku-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD22FD7D889DDD75136E3A022E855F7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4312948C1CDF0C35BC92E6118602537 /* AnimatedCollectionViewLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D87F5775512CA763703A20770249949E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469B2E58DBCB508524BB966FA06D3760 /* JSSAlertView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01B5F9358EAD17782FA546BF99060034 /* AnimatedCollectionViewLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6C88F719B2AF55EEFFD88A2BE8F10DD /* Build configuration list for PBXNativeTarget "AnimatedCollectionViewLayout" */;
+			buildPhases = (
+				809FA6DE3ED35BB7B97126DA58072C76 /* Sources */,
+				7B286E7A43102940D94EC219C3FBC877 /* Frameworks */,
+				CD22FD7D889DDD75136E3A022E855F7C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedCollectionViewLayout;
+			productName = AnimatedCollectionViewLayout;
+			productReference = 208EA5451C9C948578186EC06803A20C /* AnimatedCollectionViewLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		396BE9281F4F2DE0CB97E267BD9FAF2A /* Sharaku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9FA15B6008473AF008322960A19C1F /* Build configuration list for PBXNativeTarget "Sharaku" */;
+			buildPhases = (
+				8881CA1BE34576E0173672FB86958744 /* Sources */,
+				CE224930524D3B4D02BAF10D938AE539 /* Frameworks */,
+				92F2DFCDE0FD547702121686580ECC40 /* Resources */,
+				ADB3B05105FBB6A66DDF242315C177D8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sharaku;
+			productName = Sharaku;
+			productReference = 64442F7C303E10A10E8A19404F050804 /* Sharaku.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3E0D8640A124012AB6F0A9F775A38285 /* Fusuma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 701EE424EC02B83CAB3D7F07E65B18F3 /* Build configuration list for PBXNativeTarget "Fusuma" */;
+			buildPhases = (
+				7586AED8D8B6EDCD6A3843D1E241C0B8 /* Sources */,
+				332AD6CBCD0253B6CE91DF555781F789 /* Frameworks */,
+				30B65FFC8989F13FD23CDB867580F8C9 /* Resources */,
+				7158FEC466025B95E36CEACB736FF70B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fusuma;
+			productName = Fusuma;
+			productReference = 2D1CD3161DB3DBCB70FE40499DBC673D /* Fusuma.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		438147836F715EFF52F12D284F252227 /* SwiftyCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ED0F82CF7223904086C6F6D22F57A5E /* Build configuration list for PBXNativeTarget "SwiftyCam" */;
+			buildPhases = (
+				0998BD3490131616D78C6B9A8C2BFB01 /* Sources */,
+				019A8E0A4992E21845674668903B54F1 /* Frameworks */,
+				5A5112C0E58915E54276ABB35901E0B7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyCam;
+			productName = SwiftyCam;
+			productReference = 79C0B858D238AB8F927C117A4034E498 /* SwiftyCam.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D368184BEED712B6A15E4767FE420BE5 /* JSSAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CD1CED9945240491459C24757BB2514 /* Build configuration list for PBXNativeTarget "JSSAlertView" */;
+			buildPhases = (
+				3E3A426E412A3A73E67A37BA9F9D5A70 /* Sources */,
+				07B5BD778D3D603E8DE6B00D0A32F4A8 /* Frameworks */,
+				D87F5775512CA763703A20770249949E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSSAlertView;
+			productName = JSSAlertView;
+			productReference = 182EE2E51E2A064E728E6F0DC97932F6 /* JSSAlertView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E6FAEE6800D7EAE07B5C8E9A9252C16A /* Pods-InstaStory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED20C4880E42F3D88016BC3369997D5 /* Build configuration list for PBXNativeTarget "Pods-InstaStory" */;
+			buildPhases = (
+				7FB8268C2EF103A7C2AEEEA92DBC30F3 /* Sources */,
+				D77F5128CE80885946B33A64282A93E1 /* Frameworks */,
+				667A4B7ACD93A488EF51E5F5DE369EDC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9043A1323459383B2C6FC91DCE4995D /* PBXTargetDependency */,
+				25071134CCB228D0A4B29F62028435E3 /* PBXTargetDependency */,
+				D43D934C396607EF4E1CFB7061CFFFC8 /* PBXTargetDependency */,
+				D0E979E2710B8B28DB45C780CF116920 /* PBXTargetDependency */,
+				153576570A8FB90CBDD8224CBB5F746E /* PBXTargetDependency */,
+			);
+			name = "Pods-InstaStory";
+			productName = "Pods-InstaStory";
+			productReference = 53AF94DEE77133FDC25E8F6058EBA0F1 /* Pods_InstaStory.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EDF9956977C97CBBDC5B9E5E7C0B802B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01B5F9358EAD17782FA546BF99060034 /* AnimatedCollectionViewLayout */,
+				3E0D8640A124012AB6F0A9F775A38285 /* Fusuma */,
+				D368184BEED712B6A15E4767FE420BE5 /* JSSAlertView */,
+				E6FAEE6800D7EAE07B5C8E9A9252C16A /* Pods-InstaStory */,
+				396BE9281F4F2DE0CB97E267BD9FAF2A /* Sharaku */,
+				438147836F715EFF52F12D284F252227 /* SwiftyCam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30B65FFC8989F13FD23CDB867580F8C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F2B8EF3A92B1E031FA17F874B40D98 /* Assets.xcassets in Resources */,
+				1C82A350630273F914125DBDEA52F683 /* FSAlbumView.xib in Resources */,
+				98C0F05CF40E7E1C111B0599ABE5BCAD /* FSAlbumViewCell.xib in Resources */,
+				E76B14332EA4BF464EBA72C31769A619 /* FSCameraView.xib in Resources */,
+				13FD4829C1935D33FF0B0E858B84482D /* FSVideoCameraView.xib in Resources */,
+				C5C88F4AB62FA845795ACAE292A05E5B /* FusumaViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F2DFCDE0FD547702121686580ECC40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA8CBE6C9708D70EB792B61372FF86C /* Media.xcassets in Resources */,
+				A9B3D1536A2CF43411E63C1887FE042A /* SHCollectionViewCell.xib in Resources */,
+				8D81799B3B4613F0D1102456C361925D /* SHViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0998BD3490131616D78C6B9A8C2BFB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E553BD87F8B04274EEFCB2224BC9FE5 /* PreviewView.swift in Sources */,
+				20D66F5A4C3E7D71447E3B11DDE080E9 /* SwiftyCam-dummy.m in Sources */,
+				F78F27C6B612BBDFCEBE6DF580D6855B /* SwiftyCamButton.swift in Sources */,
+				16CBA8F2661201854CDC6804A385DDF9 /* SwiftyCamViewController.swift in Sources */,
+				D6B40CFEFF9687D1E128DE4B98A1D776 /* SwiftyCamViewControllerDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E3A426E412A3A73E67A37BA9F9D5A70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD95C2EF9504DEA869960063A5288476 /* JSSAlertView+Depricated.swift in Sources */,
+				31E624889F448B54A96EE070D6825DC8 /* JSSAlertView+Predefined.swift in Sources */,
+				B713E6D96B28A5ED3ED165A58E85DB3C /* JSSAlertView+Timer.swift in Sources */,
+				2E7AA5C7EFF40BC34343AE82B096866E /* JSSAlertView+UIColor.swift in Sources */,
+				2E8BB2C70FF725DBF79AA6A86741D031 /* JSSAlertView-dummy.m in Sources */,
+				D48280C1455DE0EE3D7AB4CE0B4CF5A6 /* JSSAlertView.swift in Sources */,
+				1FDE3F51EBA16211CA4CA86ED4411B8C /* JSSAlertViewResponder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7586AED8D8B6EDCD6A3843D1E241C0B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8B2CD64AE5925518C1FD441C723E77 /* FSAlbumView.swift in Sources */,
+				37D4EF5938F8495CE32638F8BEB53550 /* FSAlbumViewCell.swift in Sources */,
+				E8CD91CC081DE8166DB3964B70DD91F3 /* FSCameraView.swift in Sources */,
+				97D850D3836A89967D5A350E84996568 /* FSConstants.swift in Sources */,
+				76C218BD1C4FED73A5D8DE0B44133A10 /* FSImageCropView.swift in Sources */,
+				5876F184D9754E4DFBAD67EEF32FCF9C /* FSVideoCameraView.swift in Sources */,
+				484B8C39828B296D71146C51A0904FC7 /* Fusuma-dummy.m in Sources */,
+				337EBB7E279C5D1697601D3C6A696A46 /* FusumaViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB8268C2EF103A7C2AEEEA92DBC30F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68EDE14B1989D2CFC9EA37BDC6F4E911 /* Pods-InstaStory-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		809FA6DE3ED35BB7B97126DA58072C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3448F958C584DB2F0007F60C1D7C8F0E /* AnimatedCollectionViewLayout-dummy.m in Sources */,
+				61C552D3D8E8535D17FE67E7A1241E2F /* AnimatedCollectionViewLayout.swift in Sources */,
+				1DB658B6052ECB623162518123B77756 /* CrossFadeAttributesAnimator.swift in Sources */,
+				6C3E0ED549F157B68511CEA0FCFFBE2C /* CubeAttributesAnimator.swift in Sources */,
+				675FC8085F139617288ECDF622AFBDB7 /* LayoutAttributesAnimator.swift in Sources */,
+				25C0613E2A219CCBC754E32839090857 /* LinearCardAttributesAnimator.swift in Sources */,
+				A54630491BB0108B124C967C2A100F08 /* PageAttributesAnimator.swift in Sources */,
+				1802C70744FC5ACF32217ACBF5260972 /* ParallaxAttributesAnimator.swift in Sources */,
+				1125A5CE7857DA14A4C8E6D742C4596F /* RotateInOutAttributesAnimator.swift in Sources */,
+				0FDDDEBF4DB465F3EE253A58B15419DF /* SnapInAttributesAnimator.swift in Sources */,
+				520A9C5F907E09600B65840BD97D7CC7 /* UIView+Anchor.swift in Sources */,
+				7F40B8BBCC675E39488BCC8C4B49268A /* ZoomInOutAttributesAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8881CA1BE34576E0173672FB86958744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C57AE9E24E2317C7D24298CA35F2216 /* Sharaku-dummy.m in Sources */,
+				DEE986406B21C665DA0409BCD65D6967 /* SHCollectionViewCell.swift in Sources */,
+				FA4305FEDB93828B2D204C560768A70B /* SHCollectionViewCell.xib in Sources */,
+				BE257F9E8480317B11180FA5D5FD86E4 /* SHViewController.swift in Sources */,
+				C42DF1778E8B569893D69560F75A1B9D /* SHViewController.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		153576570A8FB90CBDD8224CBB5F746E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyCam;
+			target = 438147836F715EFF52F12D284F252227 /* SwiftyCam */;
+			targetProxy = 691362300CB4991B14A905C41AC09960 /* PBXContainerItemProxy */;
+		};
+		25071134CCB228D0A4B29F62028435E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Fusuma;
+			target = 3E0D8640A124012AB6F0A9F775A38285 /* Fusuma */;
+			targetProxy = CBF8A3883D716CE53D75AB7506BAA98C /* PBXContainerItemProxy */;
+		};
+		D0E979E2710B8B28DB45C780CF116920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Sharaku;
+			target = 396BE9281F4F2DE0CB97E267BD9FAF2A /* Sharaku */;
+			targetProxy = 9F4370788DC3FA900F47BCBC09358FFE /* PBXContainerItemProxy */;
+		};
+		D43D934C396607EF4E1CFB7061CFFFC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSSAlertView;
+			target = D368184BEED712B6A15E4767FE420BE5 /* JSSAlertView */;
+			targetProxy = F5ACB31B7B3B0FFDE14920A7AF1B0A6A /* PBXContainerItemProxy */;
+		};
+		F9043A1323459383B2C6FC91DCE4995D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AnimatedCollectionViewLayout;
+			target = 01B5F9358EAD17782FA546BF99060034 /* AnimatedCollectionViewLayout */;
+			targetProxy = D2E43908BF77EF2077259C23F8CC1D03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D16B3B8ACD3FA7A208505B77770A187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FE96CDD57C55C2A59E8AA2A9B49742A /* SwiftyCam.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyCam/SwiftyCam-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyCam/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyCam/SwiftyCam.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyCam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1A53C63D8CA85132A2A2FE01AC77CBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D00DB8C2D516A6E48780F62CAA643F5F /* Pods-InstaStory.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InstaStory/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InstaStory/Pods-InstaStory.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InstaStory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25F3D3D7203BA6BC58712D146ED77AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205C69A22C00FBC75425C0BD65D61E25 /* Pods-InstaStory.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InstaStory/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InstaStory/Pods-InstaStory.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InstaStory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40607FA92E2C791D7A3FA66F8D50A63B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF9704FC092F3290438B4C28AA642FD3 /* Fusuma.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Fusuma/Fusuma-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Fusuma/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Fusuma/Fusuma.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Fusuma;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4DC7D13D6FEB8571C73E7553FA284843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C936146D2973501FA675944BD90135A /* JSSAlertView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSSAlertView/JSSAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSSAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSSAlertView/JSSAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JSSAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5204CCCD204DB973113CD585BACCD1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A0E6C9C98964E6EFB20D151CF8DDD3E /* Sharaku.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Sharaku/Sharaku-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Sharaku/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Sharaku/Sharaku.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Sharaku;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5AE217CAE2F822415462EB84860A8B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56C2463C75E763980A23EA4F2D738AE5 /* AnimatedCollectionViewLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnimatedCollectionViewLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AnimatedCollectionViewLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		742490E6E61FE44B137F9EABBC3BFB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56C2463C75E763980A23EA4F2D738AE5 /* AnimatedCollectionViewLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnimatedCollectionViewLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AnimatedCollectionViewLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75B46EAA6283FFCC5C4586D90D5B4644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF9704FC092F3290438B4C28AA642FD3 /* Fusuma.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Fusuma/Fusuma-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Fusuma/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Fusuma/Fusuma.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Fusuma;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7B308EFC3AA7BDF305B825BB1746820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C936146D2973501FA675944BD90135A /* JSSAlertView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSSAlertView/JSSAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSSAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSSAlertView/JSSAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JSSAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C13B4FB7D6003CE4BC28548850F9A270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FE96CDD57C55C2A59E8AA2A9B49742A /* SwiftyCam.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyCam/SwiftyCam-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyCam/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyCam/SwiftyCam.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyCam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9F9AAE4F078A8AA25742A9087000DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A0E6C9C98964E6EFB20D151CF8DDD3E /* Sharaku.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Sharaku/Sharaku-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Sharaku/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Sharaku/Sharaku.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Sharaku;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ED0F82CF7223904086C6F6D22F57A5E /* Build configuration list for PBXNativeTarget "SwiftyCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D16B3B8ACD3FA7A208505B77770A187 /* Debug */,
+				C13B4FB7D6003CE4BC28548850F9A270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CD1CED9945240491459C24757BB2514 /* Build configuration list for PBXNativeTarget "JSSAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B308EFC3AA7BDF305B825BB1746820 /* Debug */,
+				4DC7D13D6FEB8571C73E7553FA284843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		701EE424EC02B83CAB3D7F07E65B18F3 /* Build configuration list for PBXNativeTarget "Fusuma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40607FA92E2C791D7A3FA66F8D50A63B /* Debug */,
+				75B46EAA6283FFCC5C4586D90D5B4644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BED20C4880E42F3D88016BC3369997D5 /* Build configuration list for PBXNativeTarget "Pods-InstaStory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A53C63D8CA85132A2A2FE01AC77CBEA /* Debug */,
+				25F3D3D7203BA6BC58712D146ED77AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6C88F719B2AF55EEFFD88A2BE8F10DD /* Build configuration list for PBXNativeTarget "AnimatedCollectionViewLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				742490E6E61FE44B137F9EABBC3BFB34 /* Debug */,
+				5AE217CAE2F822415462EB84860A8B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC9FA15B6008473AF008322960A19C1F /* Build configuration list for PBXNativeTarget "Sharaku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9F9AAE4F078A8AA25742A9087000DF5 /* Debug */,
+				5204CCCD204DB973113CD585BACCD1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

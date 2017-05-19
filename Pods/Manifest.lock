@@ -1,0 +1,24 @@
+PODS:
+  - AnimatedCollectionViewLayout (0.2.0)
+  - Fusuma (1.0.3)
+  - JSSAlertView (3.0.4)
+  - Sharaku (1.0.2)
+  - SwiftyCam (2.3.0)
+
+DEPENDENCIES:
+  - AnimatedCollectionViewLayout
+  - Fusuma
+  - JSSAlertView
+  - Sharaku
+  - SwiftyCam
+
+SPEC CHECKSUMS:
+  AnimatedCollectionViewLayout: 6f385ed7deb673af8989f5240c4b0c32c9d25276
+  Fusuma: 60ed1dd51a3b3610960219df9862c83f03304ce1
+  JSSAlertView: 7d8345c88e6fd8b515bc49f0fc8d8c69f6776b9c
+  Sharaku: c18de569fc99f6e936f46ca812b571826cc658a7
+  SwiftyCam: be1f832a32b12810e86e23a87caccadd855226ea
+
+PODFILE CHECKSUM: 13affdefbf5635e315360f2a583fdf66a21af758
+
+COCOAPODS: 1.2.0
